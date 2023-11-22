@@ -3490,11 +3490,11 @@ $lang['contract_notes']                                 = 'Poznámky';
 $lang['contract_add_note']                              = 'Přidat poznámku';
 
 # Version 2.1.1
-$lang['frequency']              = 'Frequency';
-$lang['frequency_every']        = 'Every %s';
-$lang['last_invoice_date']      = 'Last Invoice Date';
-$lang['next_invoice_date_list'] = 'Next Invoice Date';
-$lang['enter_new_card']         = 'Enter New Card';
+$lang['frequency']              = 'Frekvence';
+$lang['frequency_every']        = 'Každý %s';
+$lang['last_invoice_date']      = 'Datum poslední faktury';
+$lang['next_invoice_date_list'] = 'Datum další faktury';
+$lang['enter_new_card']         = 'Zadejte novou kartu';
 
 # Version 2.2.0
 $lang['save_and_record_payment']                                     = 'Save & Record Payment';
@@ -3510,10 +3510,10 @@ $lang['import_items']                                                = 'Import I
 $lang['total_items_deleted']                                         = 'Total items deleted: %s';
 $lang['billable_amount']                                             = 'Billable Amount';
 $lang['last_child_invoice_date']                                     = 'Last Child Invoice Date';
-$lang['good_morning']                                                = 'Good Morning';
-$lang['good_afternoon']                                              = 'Good Afternoon';
-$lang['good_evening']                                                = 'Good Evening';
-$lang['description_in_invoice_item']                                 = 'Include description in invoice item';
+$lang['good_morning']                                                = 'Dobré ráno';
+$lang['good_afternoon']                                              = 'Dobré odpoledne';
+$lang['good_evening']                                                = 'Dobrý večer';
+$lang['description_in_invoice_item']                                 = 'Do položky faktury uveďte popis';
 $lang['description_in_invoice_item_help']                            = 'Useful if you want to include additional information on the subscription invoice, e.q. what this subscription includes.';
 $lang['ticket_reminders']                                            = 'Reminders';
 $lang['ticket_set_reminder_title']                                   = 'Set Ticket Reminder';
@@ -3542,15 +3542,15 @@ $lang['sales_item']                  = 'Item';
 
 # Version 2.3.0
 
-$lang['modules']                                 = 'Modules';
-$lang['module']                                  = 'Module';
-$lang['module_description']                      = 'Description';
-$lang['module_activate']                         = 'Activate';
-$lang['module_deactivate']                       = 'Deactivate';
-$lang['module_uninstall']                        = 'Uninstall';
-$lang['module_upgrade_database']                 = 'Upgrade Database';
-$lang['module_settings']                         = 'Settings';
-$lang['module_version']                          = 'Version %s';
+$lang['modules']                                 = 'Moduly';
+$lang['module']                                  = 'Modul';
+$lang['module_description']                      = 'Popis';
+$lang['module_activate']                         = 'Aktivovat';
+$lang['module_deactivate']                       = 'Deaktivovat';
+$lang['module_uninstall']                        = 'Odinstalovat';
+$lang['module_upgrade_database']                 = 'Upgrade databáze';
+$lang['module_settings']                         = 'Nastavení';
+$lang['module_version']                          = 'Verze %s';
 $lang['module_by']                               = 'By %s';
 $lang['staff_which_are_using_role']              = 'Staff members which are using this role';
 $lang['copy']                                    = 'Copy';
@@ -3845,14 +3845,14 @@ $lang['show_pdf_signature_proposal']                             = 'Show PDF Sig
 $lang['enable_honeypot_spam_validation']                         = 'Enable Honeypot spam validation';
 
 # Version 3.0.0
-$lang['contracts_view_marked_as_signed'] = 'Marked As Signed';
-$lang['contracts_view_signed']           = 'signed';
-$lang['contracts_view_not_expired']      = 'Not Expired';
-$lang['contract_information']            = 'Contract Information';
-$lang['receipt']                         = 'Receipt';
-$lang['search_proposals']                = 'Search Proposals';
-$lang['search_estimates']                = 'Search Estimates';
-$lang['quick_create']                    = 'Quick Create';
+$lang['contracts_view_marked_as_signed'] = 'Označeno jako podepsané';
+$lang['contracts_view_signed']           = 'podepsaný';
+$lang['contracts_view_not_expired']      = 'Nevypršelo';
+$lang['contract_information']            = 'Informace o smlouvě';
+$lang['receipt']                         = 'Účtenka';
+$lang['search_proposals']                = 'Hledat návrhy';
+$lang['search_estimates']                = 'Odhady vyhledávání';
+$lang['quick_create']                    = 'Rychlé vytvořeníe';
 
 # Version 3.0.5
 $lang['subscription_last_sent']                             = 'Last Sent';
@@ -3863,8 +3863,8 @@ $lang['settings_contract_sign_reminder_every_days_info']    = 'Sign reminders ar
 $lang['contract_sign_reminder_every_days']                  = 'Send sign reminder every (days)';
 $lang['contract_sign_reminders']                            = 'Sign Reminders';
 $lang['payment_gateway_fee_percentage']                     = 'Percentage Fee';
-$lang['payment_gateway_fee_fixed']                          = 'Fixed Fee';
-$lang['payment_attempt_amount']                             = 'Invoice Total';
-$lang['payment_attempt_fee']                                = 'Payment Fee';
-$lang['feature']                                            = 'Feature';
-$lang['capabilities']                                       = 'Capabilities';
+$lang['payment_gateway_fee_fixed']                          = 'Pevný poplatek';
+$lang['payment_attempt_amount']                             = 'Faktura celkem';
+$lang['payment_attempt_fee']                                = 'Poplatek za platbu';
+$lang['feature']                                            = 'Vlastnosti';
+$lang['capabilities']                                       = 'Schopnosti';
